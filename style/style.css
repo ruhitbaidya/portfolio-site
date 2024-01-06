@@ -33,6 +33,9 @@ nav h3{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url("../image/header_bg.png"), url("../image/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
 }
 nav >ul{
     display: flex;
@@ -49,9 +52,9 @@ nav li a{
     font-weight: 400;
 }
 .hearo-section{
-    background-image: url("../image/header_bg.png");
+    /* background-image: url("../image/header_bg.png"), url("../image/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left; */
     display: flex;
     align-items: center;
     justify-content: space-between;
